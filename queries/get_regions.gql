@@ -1,0 +1,6 @@
+query regions {
+  regions(order_by: { label: asc }) {
+    id
+    label
+  }
+}

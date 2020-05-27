@@ -1,0 +1,13 @@
+query business_categories {
+  business_categories(
+    where: { parent_category_id: { _is_null: true } }
+    order_by: { label: asc }
+  ) {
+    id
+    label
+    sub_categories {
+      label
+      id
+    }
+  }
+}

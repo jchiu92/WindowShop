@@ -1,0 +1,32 @@
+query business_categories {
+  business_categories(
+    order_by: { label: asc }
+    where: { parent_category_id: { _is_null: true } }
+  ) {
+    ...categoriesRecursive
+  }
+}
+
+fragment categoryFields on business_categories {
+  id
+  label
+}
+
+fragment categoriesRecursive on business_categories {
+  ...categoryFields
+  sub_categories(order_by: { label: asc }) {
+    ...categoryFields
+    sub_categories(order_by: { label: asc }) {
+      ...categoryFields
+      sub_categories(order_by: { label: asc }) {
+        ...categoryFields
+        sub_categories(order_by: { label: asc }) {
+          ...categoryFields
+          sub_categories(order_by: { label: asc }) {
+            ...categoryFields
+          }
+        }
+      }
+    }
+  }
+}

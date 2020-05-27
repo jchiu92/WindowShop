@@ -1,0 +1,11 @@
+query business_stores_by_pk($storeId: uuid!) {
+  business_stores_by_pk(id: $storeId) {
+    name
+    location
+    url
+    servicing
+    contact_details
+    access_physical
+    access_online
+  }
+}

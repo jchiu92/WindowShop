@@ -1,0 +1,5 @@
+query business_categories_by_pk($catId: uuid!) {
+  business_categories_by_pk(id: $catId) {
+    label
+  }
+}

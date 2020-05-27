@@ -1,0 +1,12 @@
+query business_stores_aggregate($categoryId: uuid!, $regionId: uuid!) {
+  business_stores_aggregate(
+    where: {
+      category_id: { _eq: $categoryId }
+      service_regions: { region_id: { _eq: $regionId } }
+    }
+  ) {
+    aggregate {
+      count
+    }
+  }
+}

@@ -1,0 +1,5 @@
+mutation logSearch($data: jsonb) {
+  insert_log_item_searches(objects: { data: $data }) {
+    affected_rows
+  }
+}

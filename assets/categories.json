@@ -1,0 +1,148 @@
+{
+  "data": {
+    "business_categories": [
+      {
+        "id": "ad140995-d3db-479b-bd89-93018a42005f",
+        "label": "Automotive",
+        "__typename": "business_categories",
+        "sub_categories": [
+          
+        ]
+      },
+      {
+        "id": "846dca96-2d6f-4daf-80e6-ef2461f19d87",
+        "label": "Educational",
+        "__typename": "business_categories",
+        "sub_categories": [
+          
+        ]
+      },
+      {
+        "id": "9ec56072-452c-4e92-801f-6ffd61adbad2",
+        "label": "Entertainment",
+        "__typename": "business_categories",
+        "sub_categories": [
+          
+        ]
+      },
+      {
+        "id": "0049b030-4c79-46bd-9c4b-406af98093b0",
+        "label": "Food/Beverage Supply & Services",
+        "__typename": "business_categories",
+        "sub_categories": [
+          {
+            "id": "11421890-400b-494f-992d-ad95e9407b2c",
+            "label": "Liquor Supplier",
+            "__typename": "business_categories",
+            "sub_categories": [
+              
+            ]
+          },
+          {
+            "id": "7fb829d8-5ad9-49d3-9af5-a925b782f591",
+            "label": "Supermarkets",
+            "__typename": "business_categories",
+            "sub_categories": [
+              
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2a780283-aee1-4a55-8168-0c197217d258",
+        "label": "Health",
+        "__typename": "business_categories",
+        "sub_categories": [
+          
+        ]
+      },
+      {
+        "id": "b3d9f1dc-c617-40e7-aa95-4983b857994e",
+        "label": "Marine",
+        "__typename": "business_categories",
+        "sub_categories": [
+          
+        ]
+      },
+      {
+        "id": "dc98bf4a-894d-4fe9-abe5-7e1114b0e50a",
+        "label": "Professional Services",
+        "__typename": "business_categories",
+        "sub_categories": [
+          {
+            "id": "4ef58839-4b4e-4f96-9b49-4afbb254ed90",
+            "label": "Digital Media Agencies",
+            "__typename": "business_categories",
+            "sub_categories": [
+              
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e29feb5e-1d90-4a66-a8d9-a92a4f7e8479",
+        "label": "Real Estate & Property Services",
+        "__typename": "business_categories",
+        "sub_categories": [
+          
+        ]
+      },
+      {
+        "id": "74ae58d8-9c32-4e6f-9e8e-23bc6735dbfe",
+        "label": "Retail",
+        "__typename": "business_categories",
+        "sub_categories": [
+          
+        ]
+      },
+      {
+        "id": "be5ef7b3-c908-45c3-823e-c11174383852",
+        "label": "Social Services",
+        "__typename": "business_categories",
+        "sub_categories": [
+          
+        ]
+      },
+      {
+        "id": "d33d6d90-64c6-49ba-843f-492792fd67cc",
+        "label": "Trade & Industry",
+        "__typename": "business_categories",
+        "sub_categories": [
+          
+        ]
+      },
+      {
+        "id": "083891e0-6267-4b01-99ef-3ba32bef13c3",
+        "label": "Transport, Deliveries and Logistics",
+        "__typename": "business_categories",
+        "sub_categories": [
+          
+        ]
+      },
+      {
+        "id": "dc8dcf52-0d14-4a6f-9f14-c249fe58b0f2",
+        "label": "Travel, Tourism & Accommodation",
+        "__typename": "business_categories",
+        "sub_categories": [
+          
+        ]
+      },
+      {
+        "id": "733dcdce-e915-44cb-9669-705cd6755b63",
+        "label": "Utilities and Communications",
+        "__typename": "business_categories",
+        "sub_categories": [
+          
+        ]
+      },
+      {
+        "id": "8a51be77-871c-4619-845f-75c7b6df35ab",
+        "label": "💡 Listing Guide",
+        "__typename": "business_categories",
+        "sub_categories": [
+          
+        ]
+      }
+    ]
+  }
+}

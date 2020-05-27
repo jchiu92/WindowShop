@@ -1,0 +1,28 @@
+query business_stores(
+  $categoryId: uuid!
+  $limit: Int
+  $offset: Int
+  $regionId: uuid!
+) {
+  business_stores(
+    where: {
+      category_id: { _eq: $categoryId }
+      service_regions: { region_id: { _eq: $regionId } }
+    }
+    order_by: { updated_at: desc }
+    limit: $limit
+    offset: $offset
+  ) {
+    name
+    location
+    url
+    shopping_url
+    servicing
+    contact_details
+    access_physical
+    access_online
+    logo
+    description
+    formatted_address
+  }
+}

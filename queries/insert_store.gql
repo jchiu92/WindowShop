@@ -1,0 +1,41 @@
+mutation MyMutation(
+  $name: String
+  $categoryId: uuid!
+  $formattedAddress: String
+  $nzbn: String
+  $logo: String
+  $accessOnline: Boolean
+  $accessPhysical: Boolean
+  $description: String
+  $location: geography
+  $servicing: String
+  $url: String
+  $shoppingUrl: String
+  $serviceRegions: [business_stores_service_regions_insert_input!]!
+) {
+  insert_business_stores(
+    objects: {
+      access_online: $accessOnline
+      access_physical: $accessPhysical
+      category_id: $categoryId
+      formatted_address: $formattedAddress
+      description: $description
+      location: $location
+      logo: $logo
+      name: $name
+      nzbn: $nzbn
+      servicing: $servicing
+      shopping_url: $shoppingUrl
+      url: $url
+      service_regions: {
+        data: $serviceRegions
+        on_conflict: {
+          update_columns: store_id
+          constraint: stores_service_regions_pkey
+        }
+      }
+    }
+  ) {
+    affected_rows
+  }
+}

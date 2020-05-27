@@ -1,0 +1,24 @@
+subscription business_stores {
+  business_stores(order_by: { created_at: desc_nulls_last }) {
+    id
+    name
+    category {
+      label
+    }
+    access_online
+    access_physical
+    description
+    formatted_address
+    logo
+    nzbn
+    service_regions {
+      region {
+        label
+      }
+    }
+    shopping_url
+    servicing
+    updated_at
+    url
+  }
+}

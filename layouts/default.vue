@@ -49,7 +49,7 @@
               </li>
               <li>
                 <nuxt-link
-                  to="/fag"
+                  to="/faq"
                   class="text-white hover:text-gray-400 text-sm font-semibold block py-2 px-3"
                 >
                   FAQ

@@ -1,355 +1,353 @@
 {
-  "data": {
-    "business_stores": [
-      {
-        "name": "The Brand Outlet",
-        "url": "https://www.thebrandoutlet.co.nz/",
-        "shopping_url": "https://www.thebrandoutlet.co.nz/collections/health-wellness-essentials",
-        "facebook": "thehappymoonbook",
-        "instagram": "threeinisolation",
-        "contact_email": "email@gmail.com",
-        "contact_phone": "0211234567",
-        "formatted_address": "250 Tancred Street, Hampstead, Ashburton 7700, New Zealand",
-        "access_physical": true,
-        "access_online": true,
-        "direct_order": true,
-        "logo": null,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "image1": "https://source.unsplash.com/random",
-        "image2": "https://source.unsplash.com/daily",
-        "image3": "https://source.unsplash.com/featured/?food",
-        "image4": "https://source.unsplash.com/featured/?nature",
-        "image5": "https://source.unsplash.com/featured/?animals" 
-        
-      },
-      {
-        "name": "PAK'nSAVE Manukau",
-        "location": {
-          "type": "Point",
-          "crs": {
-            "type": "name",
-            "properties": {
-              "name": "urn:ogc:def:crs:EPSG::4326"
-            }
-          },
-          "coordinates": [
-            174.880625903606,
-            -36.9879168775792
-          ]
+  "data": [
+    {
+      "name": "The Brand Outlet",
+      "url": "https://www.thebrandoutlet.co.nz/",
+      "shopping_url": "https://www.thebrandoutlet.co.nz/collections/health-wellness-essentials",
+      "facebook": "thehappymoonbook",
+      "instagram": "threeinisolation",
+      "contact_email": "email@gmail.com",
+      "contact_phone": "0211234567",
+      "formatted_address": "250 Tancred Street, Hampstead, Ashburton 7700, New Zealand",
+      "access_physical": true,
+      "access_online": true,
+      "direct_order": true,
+      "logo": null,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "image1": "https://source.unsplash.com/random",
+      "image2": "https://source.unsplash.com/daily",
+      "image3": "https://source.unsplash.com/featured/?food",
+      "image4": "https://source.unsplash.com/featured/?nature",
+      "image5": "https://source.unsplash.com/featured/?animals" 
+      
+    },
+    {
+      "name": "PAK'nSAVE Manukau",
+      "location": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
         },
-        "url": "https://www.paknsave.co.nz/",
-        "shopping_url": "https://www.paknsaveonline.co.nz/",
-        "servicing": "all_consumers",
-        "contact_details": null,
-        "access_physical": true,
-        "access_online": true,
-        "logo": "https://www.paknsave.co.nz/assets/images/brands-pk/pack-and-save-small-logo.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis felis eu augue dignissim pellentesque. Morbi tempus ligula ut porta lacinia. Phasellus interdum massa at neque scelerisque porttitor. Aenean ut massa vitae nisi congue suscipit ut eget nibh. Curabitur nec justo rhoncus, viverra mi in, gravida purus. Cras diam velit, egestas quis erat sit amet, dictum lobortis sem. Mauris vulputate nulla nec enim auctor imperdiet. Cras rutrum libero ex, eget consectetur eros porta eu. Mauris ut accumsan mauris. Suspendisse sit amet fermentum mauris, at aliquet felis. Praesent non vulputate eros.",
-        "formatted_address": null,
-        "image1": "https://source.unsplash.com/random",
-        "image2": null,
-        "image3": "https://source.unsplash.com/featured/?food",
-        "image4": null,
-        "image5": "https://source.unsplash.com/featured/?animals" 
+        "coordinates": [
+          174.880625903606,
+          -36.9879168775792
+        ]
       },
-      {
-        "name": "PAK'nSAVE Botany",
-        "location": {
-          "type": "Point",
-          "crs": {
-            "type": "name",
-            "properties": {
-              "name": "urn:ogc:def:crs:EPSG::4326"
-            }
-          },
-          "coordinates": [
-            174.913088679314,
-            -36.9306041120329
-          ]
+      "url": "https://www.paknsave.co.nz/",
+      "shopping_url": "https://www.paknsaveonline.co.nz/",
+      "servicing": "all_consumers",
+      "contact_details": null,
+      "access_physical": true,
+      "access_online": true,
+      "logo": "https://www.paknsave.co.nz/assets/images/brands-pk/pack-and-save-small-logo.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis felis eu augue dignissim pellentesque. Morbi tempus ligula ut porta lacinia. Phasellus interdum massa at neque scelerisque porttitor. Aenean ut massa vitae nisi congue suscipit ut eget nibh. Curabitur nec justo rhoncus, viverra mi in, gravida purus. Cras diam velit, egestas quis erat sit amet, dictum lobortis sem. Mauris vulputate nulla nec enim auctor imperdiet. Cras rutrum libero ex, eget consectetur eros porta eu. Mauris ut accumsan mauris. Suspendisse sit amet fermentum mauris, at aliquet felis. Praesent non vulputate eros.",
+      "formatted_address": null,
+      "image1": "https://source.unsplash.com/random",
+      "image2": null,
+      "image3": "https://source.unsplash.com/featured/?food",
+      "image4": null,
+      "image5": "https://source.unsplash.com/featured/?animals" 
+    },
+    {
+      "name": "PAK'nSAVE Botany",
+      "location": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
         },
-        "url": "https://www.paknsave.co.nz/",
-        "shopping_url": "https://www.paknsaveonline.co.nz/",
-        "servicing": "all_consumers",
-        "contact_details": null,
-        "access_physical": true,
-        "access_online": true,
-        "logo": "https://www.paknsave.co.nz/assets/images/brands-pk/pack-and-save-small-logo.jpg",
-        "description": null,
-        "formatted_address": null,
-        "__typename": "business_stores"
+        "coordinates": [
+          174.913088679314,
+          -36.9306041120329
+        ]
       },
-      {
-        "name": "PAK'nSAVE Papakura",
-        "location": null,
-        "url": "https://www.paknsave.co.nz/",
-        "shopping_url": "https://www.paknsaveonline.co.nz/",
-        "servicing": "all_consumers",
-        "contact_details": null,
-        "access_physical": true,
-        "access_online": true,
-        "logo": "https://www.paknsave.co.nz/assets/images/brands-pk/pack-and-save-small-logo.jpg",
-        "description": null,
-        "formatted_address": null,
-        "__typename": "business_stores"
-      },
-      {
-        "name": "PAK'nSAVE Pukekohe",
-        "location": null,
-        "url": "https://www.paknsave.co.nz/",
-        "shopping_url": "https://www.paknsaveonline.co.nz/",
-        "servicing": "all_consumers",
-        "contact_details": null,
-        "access_physical": true,
-        "access_online": true,
-        "logo": "https://www.paknsave.co.nz/assets/images/brands-pk/pack-and-save-small-logo.jpg",
-        "description": null,
-        "formatted_address": null,
-        "__typename": "business_stores"
-      },
-      {
-        "name": "PAK'nSAVE Royal Oak",
-        "location": null,
-        "url": "https://www.paknsave.co.nz/",
-        "shopping_url": "https://www.paknsaveonline.co.nz/",
-        "servicing": "all_consumers",
-        "contact_details": null,
-        "access_physical": true,
-        "access_online": true,
-        "logo": "https://www.paknsave.co.nz/assets/images/brands-pk/pack-and-save-small-logo.jpg",
-        "description": null,
-        "formatted_address": null,
-        "__typename": "business_stores"
-      },
-      {
-        "name": "PAK'nSAVE Glen Innes",
-        "location": {
-          "type": "Point",
-          "crs": {
-            "type": "name",
-            "properties": {
-              "name": "urn:ogc:def:crs:EPSG::4326"
-            }
-          },
-          "coordinates": [
-            174.85521197319,
-            -36.875964595602
-          ]
+      "url": "https://www.paknsave.co.nz/",
+      "shopping_url": "https://www.paknsaveonline.co.nz/",
+      "servicing": "all_consumers",
+      "contact_details": null,
+      "access_physical": true,
+      "access_online": true,
+      "logo": "https://www.paknsave.co.nz/assets/images/brands-pk/pack-and-save-small-logo.jpg",
+      "description": null,
+      "formatted_address": null,
+      "__typename": "business_stores"
+    },
+    {
+      "name": "PAK'nSAVE Papakura",
+      "location": null,
+      "url": "https://www.paknsave.co.nz/",
+      "shopping_url": "https://www.paknsaveonline.co.nz/",
+      "servicing": "all_consumers",
+      "contact_details": null,
+      "access_physical": true,
+      "access_online": true,
+      "logo": "https://www.paknsave.co.nz/assets/images/brands-pk/pack-and-save-small-logo.jpg",
+      "description": null,
+      "formatted_address": null,
+      "__typename": "business_stores"
+    },
+    {
+      "name": "PAK'nSAVE Pukekohe",
+      "location": null,
+      "url": "https://www.paknsave.co.nz/",
+      "shopping_url": "https://www.paknsaveonline.co.nz/",
+      "servicing": "all_consumers",
+      "contact_details": null,
+      "access_physical": true,
+      "access_online": true,
+      "logo": "https://www.paknsave.co.nz/assets/images/brands-pk/pack-and-save-small-logo.jpg",
+      "description": null,
+      "formatted_address": null,
+      "__typename": "business_stores"
+    },
+    {
+      "name": "PAK'nSAVE Royal Oak",
+      "location": null,
+      "url": "https://www.paknsave.co.nz/",
+      "shopping_url": "https://www.paknsaveonline.co.nz/",
+      "servicing": "all_consumers",
+      "contact_details": null,
+      "access_physical": true,
+      "access_online": true,
+      "logo": "https://www.paknsave.co.nz/assets/images/brands-pk/pack-and-save-small-logo.jpg",
+      "description": null,
+      "formatted_address": null,
+      "__typename": "business_stores"
+    },
+    {
+      "name": "PAK'nSAVE Glen Innes",
+      "location": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
         },
-        "url": "https://www.paknsave.co.nz/",
-        "shopping_url": "https://www.paknsaveonline.co.nz/",
-        "servicing": "all_consumers",
-        "contact_details": null,
-        "access_physical": true,
-        "access_online": true,
-        "logo": "https://www.paknsave.co.nz/assets/images/brands-pk/pack-and-save-small-logo.jpg",
-        "description": null,
-        "formatted_address": null,
-        "__typename": "business_stores"
+        "coordinates": [
+          174.85521197319,
+          -36.875964595602
+        ]
       },
-      {
-        "name": "PAK'nSAVE Mangere",
-        "location": {
-          "type": "Point",
-          "crs": {
-            "type": "name",
-            "properties": {
-              "name": "urn:ogc:def:crs:EPSG::4326"
-            }
-          },
-          "coordinates": [
-            174.796997308731,
-            -36.9684523928249
-          ]
+      "url": "https://www.paknsave.co.nz/",
+      "shopping_url": "https://www.paknsaveonline.co.nz/",
+      "servicing": "all_consumers",
+      "contact_details": null,
+      "access_physical": true,
+      "access_online": true,
+      "logo": "https://www.paknsave.co.nz/assets/images/brands-pk/pack-and-save-small-logo.jpg",
+      "description": null,
+      "formatted_address": null,
+      "__typename": "business_stores"
+    },
+    {
+      "name": "PAK'nSAVE Mangere",
+      "location": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
         },
-        "url": "https://www.paknsave.co.nz/",
-        "shopping_url": "https://www.paknsaveonline.co.nz/",
-        "servicing": "all_consumers",
-        "contact_details": null,
-        "access_physical": true,
-        "access_online": true,
-        "logo": "https://www.paknsave.co.nz/assets/images/brands-pk/pack-and-save-small-logo.jpg",
-        "description": null,
-        "formatted_address": null,
-        "__typename": "business_stores"
+        "coordinates": [
+          174.796997308731,
+          -36.9684523928249
+        ]
       },
-      {
-        "name": "PAK'nSAVE Ormiston",
-        "location": null,
-        "url": "https://www.paknsave.co.nz/",
-        "shopping_url": null,
-        "servicing": "all_consumers",
-        "contact_details": null,
-        "access_physical": true,
-        "access_online": false,
-        "logo": "https://www.paknsave.co.nz/assets/images/brands-pk/pack-and-save-small-logo.jpg",
-        "description": null,
-        "formatted_address": null,
-        "__typename": "business_stores"
-      },
-      {
-        "name": "PAK'nSAVE Manukau",
-        "location": {
-          "type": "Point",
-          "crs": {
-            "type": "name",
-            "properties": {
-              "name": "urn:ogc:def:crs:EPSG::4326"
-            }
-          },
-          "coordinates": [
-            174.880625903606,
-            -36.9879168775792
-          ]
+      "url": "https://www.paknsave.co.nz/",
+      "shopping_url": "https://www.paknsaveonline.co.nz/",
+      "servicing": "all_consumers",
+      "contact_details": null,
+      "access_physical": true,
+      "access_online": true,
+      "logo": "https://www.paknsave.co.nz/assets/images/brands-pk/pack-and-save-small-logo.jpg",
+      "description": null,
+      "formatted_address": null,
+      "__typename": "business_stores"
+    },
+    {
+      "name": "PAK'nSAVE Ormiston",
+      "location": null,
+      "url": "https://www.paknsave.co.nz/",
+      "shopping_url": null,
+      "servicing": "all_consumers",
+      "contact_details": null,
+      "access_physical": true,
+      "access_online": false,
+      "logo": "https://www.paknsave.co.nz/assets/images/brands-pk/pack-and-save-small-logo.jpg",
+      "description": null,
+      "formatted_address": null,
+      "__typename": "business_stores"
+    },
+    {
+      "name": "PAK'nSAVE Manukau",
+      "location": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
         },
-        "url": "https://www.paknsave.co.nz/",
-        "shopping_url": "https://www.paknsaveonline.co.nz/",
-        "servicing": "all_consumers",
-        "contact_details": null,
-        "access_physical": true,
-        "access_online": true,
-        "logo": "https://www.paknsave.co.nz/assets/images/brands-pk/pack-and-save-small-logo.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis felis eu augue dignissim pellentesque. Morbi tempus ligula ut porta lacinia. Phasellus interdum massa at neque scelerisque porttitor. Aenean ut massa vitae nisi congue suscipit ut eget nibh. Curabitur nec justo rhoncus, viverra mi in, gravida purus. Cras diam velit, egestas quis erat sit amet, dictum lobortis sem. Mauris vulputate nulla nec enim auctor imperdiet. Cras rutrum libero ex, eget consectetur eros porta eu. Mauris ut accumsan mauris. Suspendisse sit amet fermentum mauris, at aliquet felis. Praesent non vulputate eros.",
-        "formatted_address": null,
-        "image1": "https://source.unsplash.com/random",
-        "image2": null,
-        "image3": "https://source.unsplash.com/featured/?food",
-        "image4": null,
-        "image5": "https://source.unsplash.com/featured/?animals" 
+        "coordinates": [
+          174.880625903606,
+          -36.9879168775792
+        ]
       },
-      {
-        "name": "PAK'nSAVE Botany",
-        "location": {
-          "type": "Point",
-          "crs": {
-            "type": "name",
-            "properties": {
-              "name": "urn:ogc:def:crs:EPSG::4326"
-            }
-          },
-          "coordinates": [
-            174.913088679314,
-            -36.9306041120329
-          ]
+      "url": "https://www.paknsave.co.nz/",
+      "shopping_url": "https://www.paknsaveonline.co.nz/",
+      "servicing": "all_consumers",
+      "contact_details": null,
+      "access_physical": true,
+      "access_online": true,
+      "logo": "https://www.paknsave.co.nz/assets/images/brands-pk/pack-and-save-small-logo.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis felis eu augue dignissim pellentesque. Morbi tempus ligula ut porta lacinia. Phasellus interdum massa at neque scelerisque porttitor. Aenean ut massa vitae nisi congue suscipit ut eget nibh. Curabitur nec justo rhoncus, viverra mi in, gravida purus. Cras diam velit, egestas quis erat sit amet, dictum lobortis sem. Mauris vulputate nulla nec enim auctor imperdiet. Cras rutrum libero ex, eget consectetur eros porta eu. Mauris ut accumsan mauris. Suspendisse sit amet fermentum mauris, at aliquet felis. Praesent non vulputate eros.",
+      "formatted_address": null,
+      "image1": "https://source.unsplash.com/random",
+      "image2": null,
+      "image3": "https://source.unsplash.com/featured/?food",
+      "image4": null,
+      "image5": "https://source.unsplash.com/featured/?animals" 
+    },
+    {
+      "name": "PAK'nSAVE Botany",
+      "location": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
         },
-        "url": "https://www.paknsave.co.nz/",
-        "shopping_url": "https://www.paknsaveonline.co.nz/",
-        "servicing": "all_consumers",
-        "contact_details": null,
-        "access_physical": true,
-        "access_online": true,
-        "logo": "https://www.paknsave.co.nz/assets/images/brands-pk/pack-and-save-small-logo.jpg",
-        "description": null,
-        "formatted_address": null,
-        "__typename": "business_stores"
+        "coordinates": [
+          174.913088679314,
+          -36.9306041120329
+        ]
       },
-      {
-        "name": "PAK'nSAVE Papakura",
-        "location": null,
-        "url": "https://www.paknsave.co.nz/",
-        "shopping_url": "https://www.paknsaveonline.co.nz/",
-        "servicing": "all_consumers",
-        "contact_details": null,
-        "access_physical": true,
-        "access_online": true,
-        "logo": "https://www.paknsave.co.nz/assets/images/brands-pk/pack-and-save-small-logo.jpg",
-        "description": null,
-        "formatted_address": null,
-        "__typename": "business_stores"
-      },
-      {
-        "name": "PAK'nSAVE Pukekohe",
-        "location": null,
-        "url": "https://www.paknsave.co.nz/",
-        "shopping_url": "https://www.paknsaveonline.co.nz/",
-        "servicing": "all_consumers",
-        "contact_details": null,
-        "access_physical": true,
-        "access_online": true,
-        "logo": "https://www.paknsave.co.nz/assets/images/brands-pk/pack-and-save-small-logo.jpg",
-        "description": null,
-        "formatted_address": null,
-        "__typename": "business_stores"
-      },
-      {
-        "name": "PAK'nSAVE Royal Oak",
-        "location": null,
-        "url": "https://www.paknsave.co.nz/",
-        "shopping_url": "https://www.paknsaveonline.co.nz/",
-        "servicing": "all_consumers",
-        "contact_details": null,
-        "access_physical": true,
-        "access_online": true,
-        "logo": "https://www.paknsave.co.nz/assets/images/brands-pk/pack-and-save-small-logo.jpg",
-        "description": null,
-        "formatted_address": null,
-        "__typename": "business_stores"
-      },
-      {
-        "name": "PAK'nSAVE Glen Innes",
-        "location": {
-          "type": "Point",
-          "crs": {
-            "type": "name",
-            "properties": {
-              "name": "urn:ogc:def:crs:EPSG::4326"
-            }
-          },
-          "coordinates": [
-            174.85521197319,
-            -36.875964595602
-          ]
+      "url": "https://www.paknsave.co.nz/",
+      "shopping_url": "https://www.paknsaveonline.co.nz/",
+      "servicing": "all_consumers",
+      "contact_details": null,
+      "access_physical": true,
+      "access_online": true,
+      "logo": "https://www.paknsave.co.nz/assets/images/brands-pk/pack-and-save-small-logo.jpg",
+      "description": null,
+      "formatted_address": null,
+      "__typename": "business_stores"
+    },
+    {
+      "name": "PAK'nSAVE Papakura",
+      "location": null,
+      "url": "https://www.paknsave.co.nz/",
+      "shopping_url": "https://www.paknsaveonline.co.nz/",
+      "servicing": "all_consumers",
+      "contact_details": null,
+      "access_physical": true,
+      "access_online": true,
+      "logo": "https://www.paknsave.co.nz/assets/images/brands-pk/pack-and-save-small-logo.jpg",
+      "description": null,
+      "formatted_address": null,
+      "__typename": "business_stores"
+    },
+    {
+      "name": "PAK'nSAVE Pukekohe",
+      "location": null,
+      "url": "https://www.paknsave.co.nz/",
+      "shopping_url": "https://www.paknsaveonline.co.nz/",
+      "servicing": "all_consumers",
+      "contact_details": null,
+      "access_physical": true,
+      "access_online": true,
+      "logo": "https://www.paknsave.co.nz/assets/images/brands-pk/pack-and-save-small-logo.jpg",
+      "description": null,
+      "formatted_address": null,
+      "__typename": "business_stores"
+    },
+    {
+      "name": "PAK'nSAVE Royal Oak",
+      "location": null,
+      "url": "https://www.paknsave.co.nz/",
+      "shopping_url": "https://www.paknsaveonline.co.nz/",
+      "servicing": "all_consumers",
+      "contact_details": null,
+      "access_physical": true,
+      "access_online": true,
+      "logo": "https://www.paknsave.co.nz/assets/images/brands-pk/pack-and-save-small-logo.jpg",
+      "description": null,
+      "formatted_address": null,
+      "__typename": "business_stores"
+    },
+    {
+      "name": "PAK'nSAVE Glen Innes",
+      "location": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
         },
-        "url": "https://www.paknsave.co.nz/",
-        "shopping_url": "https://www.paknsaveonline.co.nz/",
-        "servicing": "all_consumers",
-        "contact_details": null,
-        "access_physical": true,
-        "access_online": true,
-        "logo": "https://www.paknsave.co.nz/assets/images/brands-pk/pack-and-save-small-logo.jpg",
-        "description": null,
-        "formatted_address": null,
-        "__typename": "business_stores"
+        "coordinates": [
+          174.85521197319,
+          -36.875964595602
+        ]
       },
-      {
-        "name": "PAK'nSAVE Mangere",
-        "location": {
-          "type": "Point",
-          "crs": {
-            "type": "name",
-            "properties": {
-              "name": "urn:ogc:def:crs:EPSG::4326"
-            }
-          },
-          "coordinates": [
-            174.796997308731,
-            -36.9684523928249
-          ]
+      "url": "https://www.paknsave.co.nz/",
+      "shopping_url": "https://www.paknsaveonline.co.nz/",
+      "servicing": "all_consumers",
+      "contact_details": null,
+      "access_physical": true,
+      "access_online": true,
+      "logo": "https://www.paknsave.co.nz/assets/images/brands-pk/pack-and-save-small-logo.jpg",
+      "description": null,
+      "formatted_address": null,
+      "__typename": "business_stores"
+    },
+    {
+      "name": "PAK'nSAVE Mangere",
+      "location": {
+        "type": "Point",
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
         },
-        "url": "https://www.paknsave.co.nz/",
-        "shopping_url": "https://www.paknsaveonline.co.nz/",
-        "servicing": "all_consumers",
-        "contact_details": null,
-        "access_physical": true,
-        "access_online": true,
-        "logo": "https://www.paknsave.co.nz/assets/images/brands-pk/pack-and-save-small-logo.jpg",
-        "description": null,
-        "formatted_address": null,
-        "__typename": "business_stores"
+        "coordinates": [
+          174.796997308731,
+          -36.9684523928249
+        ]
       },
-      {
-        "name": "PAK'nSAVE Ormiston",
-        "location": null,
-        "url": "https://www.paknsave.co.nz/",
-        "shopping_url": null,
-        "servicing": "all_consumers",
-        "contact_details": null,
-        "access_physical": true,
-        "access_online": false,
-        "logo": "https://www.paknsave.co.nz/assets/images/brands-pk/pack-and-save-small-logo.jpg",
-        "description": null,
-        "formatted_address": null,
-        "__typename": "business_stores"
-      }
-    ]
-  }
+      "url": "https://www.paknsave.co.nz/",
+      "shopping_url": "https://www.paknsaveonline.co.nz/",
+      "servicing": "all_consumers",
+      "contact_details": null,
+      "access_physical": true,
+      "access_online": true,
+      "logo": "https://www.paknsave.co.nz/assets/images/brands-pk/pack-and-save-small-logo.jpg",
+      "description": null,
+      "formatted_address": null,
+      "__typename": "business_stores"
+    },
+    {
+      "name": "PAK'nSAVE Ormiston",
+      "location": null,
+      "url": "https://www.paknsave.co.nz/",
+      "shopping_url": null,
+      "servicing": "all_consumers",
+      "contact_details": null,
+      "access_physical": true,
+      "access_online": false,
+      "logo": "https://www.paknsave.co.nz/assets/images/brands-pk/pack-and-save-small-logo.jpg",
+      "description": null,
+      "formatted_address": null,
+      "__typename": "business_stores"
+    }
+  ]
 }

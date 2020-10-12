@@ -2,10 +2,9 @@
   <div class="w-6xl lg:max-w-6xl py-4 px-6 bg-gray-100 shadow-xs my-5">
     <div class="flex items-center">
       <img
-        v-if="businessData && businessData.logo"
+        v-if="businessData && businessLogoUrl"
         class="w-24 h-24 object-contain rounded-sm shadow bg-white"
-        :alt="businessData.label + 'store logo/image'"
-        :src="businessData.logo"
+        :src="businessLogoUrl"
       />
       <img
         v-else
@@ -15,7 +14,7 @@
       >
       <div class="flex-col px-2 -my-2">
         <h2 class="text-gray-800 text-3xl font-semibold">
-          {{ businessData.name }}
+          {{ businessData.business_name }}
         </h2>
         <a
           v-if="businessData.access_physical && businessData.formatted_address"
@@ -33,19 +32,21 @@
             :href="'mailto:' +
               businessData.contact_email"
             class="mt-2 w-1/2 text-sm font-bold text-gray-600 hover:underline"
+            target="_blank"
           >
             <span class="mdi mdi-at pr-1" />
             {{ businessData.contact_email }}
           </a>
 
           <a
-            v-if="businessData.contact_phone"
+            v-if="businessData.contact_number"
             :href="'tel:' +
-              businessData.contact_phone"
+              businessData.contact_number"
             class="mt-2 w-1/2 text-sm font-bold text-gray-600 hover:underline"
+            target="_blank"
           >
             <span class="mdi mdi-phone pr-1" />
-            {{ businessData.contact_phone }}
+            {{ businessData.contact_number }}
           </a>
         </div>
       </div>
@@ -54,8 +55,8 @@
       {{ businessData.description }}
     </p>
     <div class="flex flex-wrap -mx-1">
-      <div v-if="businessData.image1" class="my-1 px-1 bg-white">
-        <img class="object-cover h-48 w-48" :src="businessData.image1" />
+      <div v-if="businessImageUrl[0]" class="my-1 px-1 bg-white">
+        <img class="object-cover h-48 w-48" :src="businessImageUrl[0]" />
       </div>
       <div v-if="businessData.image2" class="my-1 px-1 bg-white">
         <img class="object-cover h-48 w-48" :src="businessData.image2" />
@@ -75,7 +76,7 @@
       <div>
         <a
           v-if="businessData.facebook"
-          :href="'https://www.facebook.com/' + businessData.facebook"
+          :href="businessData.facebook"
           class="text-md font-medium text-gray-900 ml-4 hover:underline"
           target="_blank"
         >
@@ -83,7 +84,7 @@
         </a>
         <a
           v-if="businessData.instagram"
-          :href="'https://www.instagram.com/' + businessData.instagram"
+          :href="businessData.instagram"
           class="text-md font-medium text-gray-900 ml-4 hover:underline"
           target="_blank"
         >
@@ -114,10 +115,34 @@
 </template>
 
 <script>
-// import { ContentLoader } from 'vue-content-loader'
 
 export default {
-  // components: { ContentLoader },
+  data () {
+    return {
+      businessLogoUrl: false,
+      businessImageUrl: []
+    //   businessImage2Url: false,
+    //   businessImage3Url: false,
+    //   businessImage4Url: false,
+    //   businessImage5Url: false
+    }
+  },
+  async mounted () {
+    let result = await this.$axios.$get('https://cms.windowshop.co.nz/_/files/' + this.businessData.business_logo)
+    this.businessLogoUrl = result.data.data.full_url
+    result = await this.$axios.$get('https://cms.windowshop.co.nz/_/items/test_business_directus_files?filter[test_business_id]=' + this.businessData.id)
+
+    // for ( image in result) {
+    //   console.log('Iterate', image)
+    //   // result = await this.$axios.$get('https://cms.windowshop.co.nz/_/files/' + result.data[i].directus_files_id)
+    //   // this.businessImageUrl[i] = result.data.data.full_url
+    // }
+
+    result = await this.$axios.$get('https://cms.windowshop.co.nz/_/files/' + result.data[0].directus_files_id)
+    this.businessImageUrl[0] = result.data.data.full_url
+    console.log('Business image ID', this.businessImageUrl)
+  },
+
   props: {
     businessData: {
       type: Object,

@@ -74,17 +74,20 @@
 </template>
 
 <script>
-import businessList from '~/assets/example.json'
-
 import ListingCard from '~/components/ListingCard'
 
 export default {
   components: {
     ListingCard
   },
-  data: () => {
+
+  async asyncData ({ $axios }) {
+    const businessList = await $axios.$get('https://cms.windowshop.co.nz/_/items/test_business')
+    return { businessList: businessList.data }
+  },
+
+  data () {
     return {
-      businessList: businessList.data.business_stores,
       categoryDetails: {
         id: '7fb829d8-5ad9-49d3-9af5-a925b782f591',
         label: 'Supermarkets'
